@@ -24,7 +24,7 @@ int main()
         tamanho++; // Incrementa o contador para passar para a próxima posição
     }
 
-    printf("\nO tamanho da string digitada foi: %d", tamanho); // Exibindo resultado
+    printf("\nO tamanho da string digitada foi: %d", tamanho - 1); // Exibindo resultado
 
     return 0;
 }
